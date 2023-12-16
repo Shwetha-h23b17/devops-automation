@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Build Maven'){
             steps{
-                git url:'https://github.com/ Shwetha-h23b17/devops-automation/', branch: "master"
+                git url:'https://github.com/ Shwetha-h23b17/devops-automation/', branch: "main"
                sh 'mvn clean install'
             }
         }
